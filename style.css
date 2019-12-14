@@ -1,0 +1,124 @@
+/* 
+seletor{                      // seletor são as tags <p> elementos de marcação de html
+	propriedade: valor;       // propriedade color
+
+
+} */
+/* tags -seletores*/
+*{ 
+	margin:0;
+  	justify-content: center	 
+}
+
+p{ 
+	clear:both;
+	width: 600px;
+	margin: 0px 90px;  
+	padding:0;
+}
+
+
+a{ 
+	margin: 5px;
+	padding: 5px 3px;
+	font-weight: 700;
+}
+h2{
+	clear:both;
+	width: 600px;
+	margin: 0px 90px; 
+	font-weight: 900;
+}
+h3{
+	clear:both;
+	color: ff9cc0;
+	margin: 0px 70px; 
+	font-weight: 900;
+}
+header{
+	clear:both;
+	color: #ffffff;
+	padding: 60px;
+	background-color: #fc0352
+}
+
+body{
+	color: #ffffff;
+	font-family: helvetica;
+	background-color: #fc0352
+}
+
+footer{
+	clear:both;
+	background-color: #fc0352;
+	padding: 100px 0px;
+	font-size: small;
+	font-weight: 600;
+}
+
+nav{
+   display: flex;
+   justify-content: center;
+}
+nav ul li a {   /* Menu bonito */
+    color: #fc0352;
+}
+
+li { 
+	list-style-type: none;
+	}
+
+
+/* ids de menu bonito*/
+#menu ul{
+	padding: 0px;
+    margin: 0px;
+    background-color:#fffafa;
+    list-style:none;
+	/*font-size: 12px;
+	padding: 5px;
+	color: #ffffff;*/
+}
+#menu ul li { display: inline; 
+}	
+#menu ul li a {
+    padding: 5px 20px;
+    display: inline-block;
+    background-color:#fffafa;
+    text-decoration: none;
+    /* border-bottom:3px solid #fffafa;   tirar antes da entrega */
+}
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+#div_esquerda{
+	min-height: 250px;
+	width: 20%;
+	float: left;
+}
+
+#div_direita{
+	min-height: 250px;
+	width: 80%;
+	float: right;
+
+
+}
+/* class*/
+IMG.capa {
+    display: block;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+li.lista{
+    margin: 30px 60px 30px 30px;
+    font-size: smaller;
+}
+ol.contato{
+	margin: 5px 50px;
+    font-size: smaller;
+}
